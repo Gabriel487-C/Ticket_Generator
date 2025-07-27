@@ -1,6 +1,6 @@
 ## Preview
 
-![Ticket Preview](https://gabriel487-c.github.io/Ticket_Generator/)
+https://gabriel487-c.github.io/Ticket_Generator/
 
 # Ticket Generator
 
