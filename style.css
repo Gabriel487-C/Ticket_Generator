@@ -1,0 +1,89 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1{
+ font-size: 40px;
+}
+p{
+    font-size: 15px;
+}
+body{
+    background: hsl(248, 67%, 5%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.conteiner{
+    background-image: 
+    url(imagens/pattern-lines.svg), 
+    url(imagens/background-desktop.png), 
+    url(imagens/pattern-squiggly-line-bottom-desktop.svg);
+
+  background-size: auto, cover, auto;
+  background-position: top left, center, bottom left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  color: white;
+  height: 100vh;
+}
+.boxprincipal{
+   
+    height: 100%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.form-box{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    height: 100%;
+}
+
+.formulario,button{
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    width: 60%;
+    border-color: white;
+    cursor: pointer;
+    color: white;
+}
+.formulario:focus{
+    outline: none;
+}
+
+button{
+    background-color:   #f06;
+    font-weight: bold;
+}
+button:hover{
+    background-color:  #4a90e2;
+    transition: 0.4s;
+}
+.formulario{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.drop-area{
+    border: 3px dotted gray;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 60%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+.avatar{
+    font-weight: bold;
+}
